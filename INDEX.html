@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(86, 5, 113);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(16, 1, 23);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(33, 211, 24);
+            font-size: 1.08rem;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 2.9rem;
+
+        }
+        .leftSection .button{
+            padding: 23px 0;
+        }
+
+        button.btn {
+            outline: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 400;
+            background: #848da5;
+            color: #fff;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.4s ease;
+        }
+
+        button.btn:hover {
+            border-color: #030f30;
+            background-color: #fff;
+            color: #0f5d91;
+        }
+
+        .rightSection img {
+            width: 90%;
+            mix-blend-mode: multiply;
+        }
+
+        .purple {
+            color: #e4ad7f;
+        }
+
+        .secondSection {
+            max-width: 80%;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 79vw;
+            height: 2px;
+            margin: 58px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 151px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 84px;
+            color: rgb(164, 221, 221);
+            font-size: 9px;
+            width: 151px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(219, 144, 241);
+            height: 1.2px;
+            margin: 50px 80px;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        footer {
+            background-color: rgb(84, 30, 91);
+
+
+        }
+
+        .flex {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .flex ul {
+            list-style: none;
+        }
+
+
+        .first {
+            width: 410px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Keshav's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href=""> Services</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is <span class="purple">Keshav.</span>
+                <div>and I'm a passionate</div>
+                <div>Web Devloper</div>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Gihub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="missing">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey"> What I have done so far</span>
+            <h1>Work Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="devloper.png" alt="missing photo" class="image-top">
+                    <div class="vertical-title">
+                        HTML Devloper (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui perferendis incidunt quis
+                        voluptas quae vitae, vel nemo temporibus rem.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="devloper.png" alt="missing photo" class="image-top">
+                    <div class="vertical-title">
+                        HTML Devloper (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui perferendis incidunt quis
+                        voluptas quae vitae, vel nemo temporibus rem.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="devloper.png" alt="missing photo" class="image-top">
+                    <div class="vertical-title">
+                        HTML Devloper (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui perferendis incidunt quis
+                        voluptas quae vitae, vel nemo temporibus rem.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="devloper.png" alt="missing photo" class="image-top">
+                    <div class="vertical-title">
+                        HTML Devloper (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui perferendis incidunt quis
+                        voluptas quae vitae, vel nemo temporibus rem.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="devloper.png" alt="missing photo" class="image-top">
+                    <div class="vertical-title">
+                        HTML Devloper (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui perferendis incidunt quis
+                        voluptas quae vitae, vel nemo temporibus rem.
+                    </div>
+                </div>
+
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="first">
+                <h1>Keshav's Devloper Portfolio</h1>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>Project</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twiter</li>
+                    <li>Linkdin</li>
+                    
+                </ul>
+
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Shop</li>
+                    <li>Collage</li>
+                    <li>Ecomerce</li>
+                    <li>Social media</li>
+                    
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright © www.keshavportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
